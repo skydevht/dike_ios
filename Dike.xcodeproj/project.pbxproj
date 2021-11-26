@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24F4333A2B263BC70F2F70C3 /* Pods_Dike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5314F113D3268CE68D4EBE99 /* Pods_Dike.framework */; };
+		2FA4E575B9E27B03EAB87B29 /* Pods_DikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423B274D1BBE56109423A267 /* Pods_DikeTests.framework */; };
 		CCAD899F27510C6200CA9E3C /* DikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD899E27510C6200CA9E3C /* DikeApp.swift */; };
 		CCAD89A127510C6200CA9E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89A027510C6200CA9E3C /* ContentView.swift */; };
 		CCAD89A327510C6400CA9E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD89A227510C6400CA9E3C /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		CCAD89B027510C6400CA9E3C /* DikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89AF27510C6400CA9E3C /* DikeTests.swift */; };
 		CCAD89BA27510C6400CA9E3C /* DikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89B927510C6400CA9E3C /* DikeUITests.swift */; };
 		CCAD89BC27510C6400CA9E3C /* DikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89BB27510C6400CA9E3C /* DikeUITestsLaunchTests.swift */; };
+		CCAD89C92751102C00CA9E3C /* ConstitutionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89C82751102C00CA9E3C /* ConstitutionModel.swift */; };
+		CCAD89CB2751194600CA9E3C /* const-1987-amd.yml in Resources */ = {isa = PBXBuildFile; fileRef = CCAD89CA2751194600CA9E3C /* const-1987-amd.yml */; };
+		CCAD89CF27511D0300CA9E3C /* ConstitutionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89CE27511D0300CA9E3C /* ConstitutionPresenter.swift */; };
+		CCAD89D32751316200CA9E3C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89D22751316200CA9E3C /* TitleView.swift */; };
+		EBFDC4F2E94EF4DCE61791B4 /* Pods_Dike_DikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB61E3A3CDF243F945E7CF9 /* Pods_Dike_DikeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0208665AD0EAA8EA71281520 /* Pods-Dike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dike.debug.xcconfig"; path = "Target Support Files/Pods-Dike/Pods-Dike.debug.xcconfig"; sourceTree = "<group>"; };
+		241F61285C35A7E8FB5D5078 /* Pods-DikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DikeTests.release.xcconfig"; path = "Target Support Files/Pods-DikeTests/Pods-DikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		423B274D1BBE56109423A267 /* Pods_DikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5314F113D3268CE68D4EBE99 /* Pods_Dike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A4D3B4DDFD8A6E080206F /* Pods-Dike-DikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dike-DikeUITests.release.xcconfig"; path = "Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AB61E3A3CDF243F945E7CF9 /* Pods_Dike_DikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dike_DikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9401FC039CB2C0268F7169 /* Pods-DikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DikeTests.debug.xcconfig"; path = "Target Support Files/Pods-DikeTests/Pods-DikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C947C6DACFC12BB4D66DD64C /* Pods-Dike-DikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dike-DikeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCAD899B27510C6200CA9E3C /* Dike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD899E27510C6200CA9E3C /* DikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DikeApp.swift; sourceTree = "<group>"; };
 		CCAD89A027510C6200CA9E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,11 @@
 		CCAD89B527510C6400CA9E3C /* DikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD89B927510C6400CA9E3C /* DikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DikeUITests.swift; sourceTree = "<group>"; };
 		CCAD89BB27510C6400CA9E3C /* DikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCAD89C82751102C00CA9E3C /* ConstitutionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstitutionModel.swift; sourceTree = "<group>"; };
+		CCAD89CA2751194600CA9E3C /* const-1987-amd.yml */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text.yaml; path = "const-1987-amd.yml"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
+		CCAD89CE27511D0300CA9E3C /* ConstitutionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstitutionPresenter.swift; sourceTree = "<group>"; };
+		CCAD89D22751316200CA9E3C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		ECB7A48FDCEE33DEAD98266D /* Pods-Dike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dike.release.xcconfig"; path = "Target Support Files/Pods-Dike/Pods-Dike.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F4333A2B263BC70F2F70C3 /* Pods_Dike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA4E575B9E27B03EAB87B29 /* Pods_DikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +87,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFDC4F2E94EF4DCE61791B4 /* Pods_Dike_DikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F332776183FD6C0F4ED7FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0208665AD0EAA8EA71281520 /* Pods-Dike.debug.xcconfig */,
+				ECB7A48FDCEE33DEAD98266D /* Pods-Dike.release.xcconfig */,
+				C947C6DACFC12BB4D66DD64C /* Pods-Dike-DikeUITests.debug.xcconfig */,
+				7B6A4D3B4DDFD8A6E080206F /* Pods-Dike-DikeUITests.release.xcconfig */,
+				9D9401FC039CB2C0268F7169 /* Pods-DikeTests.debug.xcconfig */,
+				241F61285C35A7E8FB5D5078 /* Pods-DikeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CCAD899227510C6200CA9E3C = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +114,8 @@
 				CCAD89AE27510C6400CA9E3C /* DikeTests */,
 				CCAD89B827510C6400CA9E3C /* DikeUITests */,
 				CCAD899C27510C6200CA9E3C /* Products */,
+				1F332776183FD6C0F4ED7FDE /* Pods */,
+				F8D3739953A9FC3ABCF41BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +136,10 @@
 				CCAD89A027510C6200CA9E3C /* ContentView.swift */,
 				CCAD89A227510C6400CA9E3C /* Assets.xcassets */,
 				CCAD89A427510C6400CA9E3C /* Preview Content */,
+				CCAD89C82751102C00CA9E3C /* ConstitutionModel.swift */,
+				CCAD89D12751314600CA9E3C /* Views */,
+				CCAD89D0275130EE00CA9E3C /* Resources */,
+				CCAD89CE27511D0300CA9E3C /* ConstitutionPresenter.swift */,
 			);
 			path = Dike;
 			sourceTree = "<group>";
@@ -127,6 +169,32 @@
 			path = DikeUITests;
 			sourceTree = "<group>";
 		};
+		CCAD89D0275130EE00CA9E3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD89CA2751194600CA9E3C /* const-1987-amd.yml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCAD89D12751314600CA9E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD89D22751316200CA9E3C /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8D3739953A9FC3ABCF41BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5314F113D3268CE68D4EBE99 /* Pods_Dike.framework */,
+				8AB61E3A3CDF243F945E7CF9 /* Pods_Dike_DikeUITests.framework */,
+				423B274D1BBE56109423A267 /* Pods_DikeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAD89BF27510C6400CA9E3C /* Build configuration list for PBXNativeTarget "Dike" */;
 			buildPhases = (
+				20041A893F91C9F68F7AE494 /* [CP] Check Pods Manifest.lock */,
 				CCAD899727510C6200CA9E3C /* Sources */,
 				CCAD899827510C6200CA9E3C /* Frameworks */,
 				CCAD899927510C6200CA9E3C /* Resources */,
+				6CE846BDA0F9A71175C2F09A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAD89C227510C6400CA9E3C /* Build configuration list for PBXNativeTarget "DikeTests" */;
 			buildPhases = (
+				04A7CE37A02FB158EEEDA53D /* [CP] Check Pods Manifest.lock */,
 				CCAD89A727510C6400CA9E3C /* Sources */,
 				CCAD89A827510C6400CA9E3C /* Frameworks */,
 				CCAD89A927510C6400CA9E3C /* Resources */,
@@ -169,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAD89C527510C6400CA9E3C /* Build configuration list for PBXNativeTarget "DikeUITests" */;
 			buildPhases = (
+				4C449F5C5C71A25E42043BD3 /* [CP] Check Pods Manifest.lock */,
 				CCAD89B127510C6400CA9E3C /* Sources */,
 				CCAD89B227510C6400CA9E3C /* Frameworks */,
 				CCAD89B327510C6400CA9E3C /* Resources */,
+				E9135B48AA7519438BDB6181 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +306,7 @@
 			files = (
 				CCAD89A627510C6400CA9E3C /* Preview Assets.xcassets in Resources */,
 				CCAD89A327510C6400CA9E3C /* Assets.xcassets in Resources */,
+				CCAD89CB2751194600CA9E3C /* const-1987-amd.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +326,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A7CE37A02FB158EEEDA53D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20041A893F91C9F68F7AE494 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C449F5C5C71A25E42043BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dike-DikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE846BDA0F9A71175C2F09A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dike/Pods-Dike-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dike/Pods-Dike-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dike/Pods-Dike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9135B48AA7519438BDB6181 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCAD899727510C6200CA9E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CCAD89A127510C6200CA9E3C /* ContentView.swift in Sources */,
+				CCAD89CF27511D0300CA9E3C /* ConstitutionPresenter.swift in Sources */,
+				CCAD89C92751102C00CA9E3C /* ConstitutionModel.swift in Sources */,
 				CCAD899F27510C6200CA9E3C /* DikeApp.swift in Sources */,
+				CCAD89D32751316200CA9E3C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +593,7 @@
 		};
 		CCAD89C027510C6400CA9E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0208665AD0EAA8EA71281520 /* Pods-Dike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +606,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +624,7 @@
 		};
 		CCAD89C127510C6400CA9E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB7A48FDCEE33DEAD98266D /* Pods-Dike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +637,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +655,7 @@
 		};
 		CCAD89C327510C6400CA9E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9401FC039CB2C0268F7169 /* Pods-DikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +681,7 @@
 		};
 		CCAD89C427510C6400CA9E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241F61285C35A7E8FB5D5078 /* Pods-DikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +707,7 @@
 		};
 		CCAD89C627510C6400CA9E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C947C6DACFC12BB4D66DD64C /* Pods-Dike-DikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +731,7 @@
 		};
 		CCAD89C727510C6400CA9E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6A4D3B4DDFD8A6E080206F /* Pods-Dike-DikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

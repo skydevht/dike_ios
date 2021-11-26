@@ -1,0 +1,61 @@
+- name: Titre I
+  text: DE LA RÉPUBLIQUE D’HAÏTI
+  chapters:
+    - name: null
+      sections:
+        - name: null
+          articles:
+            - name: Article 1
+              text: >-
+                    Haïti est une République, indivisible, souveraine, indépendante,
+                    libre, démocratique et solidaire
+- name: Titre II
+  text: DE LA NATIONALITÉ HAÏTIENNE
+  chapters:
+    - name: null
+      sections:
+        - name: null
+          articles:
+            - name: Article 10
+              text: >-
+                    Les règles relatives à la Nationalité Haïtienne sont déterminées par
+                    la Loi
+- name: Titre III
+  text: DU CITOYEN, DES DROITS et DEVOIRS FONDAMENTAUX
+  chapters: []
+- name: Titre IV
+  text: DES ÉTRANGERS
+  chapters: []
+- name: Titre V
+  text: DE LA SOUVERAINETÉ NATIONALE
+  chapters: []
+- name: Titre VI
+  text: DES INSTITUTIONS INDÉPENDANTES
+  chapters: []
+- name: Titre VII
+  text: DES FINANCES PUBLIQUES
+  chapters: []
+- name: Titre VIII
+  text: DE LA FONCTION PUBLIQUE
+  chapters: []
+- name: Titre IX
+  text: DE L’ECONOMIE, DE L’AGRICULTURE et DE L’ENVIRONNEMENT
+  chapters: []
+- name: Titre X
+  text: DE LA FAMILLE
+  chapters: []
+- name: Titre XI
+  text: DE LA FORCE PUBLIQUE
+  chapters: []
+- name: Titre XII
+  text: DISPOSITIONS GÉNÉRALES
+  chapters: []
+- name: Titre XIII
+  text: AMENDEMENTS A LA CONSTITUTION
+  chapters: []
+- name: Titre XIV
+  text: DES DISPOSITIONS TRANSITOIRES
+  chapters: []
+- name: Titre XV
+  text: DISPOSITIONS FINALES
+  chapters: []

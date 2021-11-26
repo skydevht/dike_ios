@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    var presenter = ConstitutionPresenter()
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+            NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(presenter.getTitle(), id: \.name) { title in
+                        TitleView(title: title)
+                    }
+                }
+            }.navigationTitle("Dike")
+        }
     }
 }
 
