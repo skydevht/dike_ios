@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		24F4333A2B263BC70F2F70C3 /* Pods_Dike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5314F113D3268CE68D4EBE99 /* Pods_Dike.framework */; };
 		2FA4E575B9E27B03EAB87B29 /* Pods_DikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423B274D1BBE56109423A267 /* Pods_DikeTests.framework */; };
+		CC947C0E2758F7570082A9D9 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC947C0D2758F7570082A9D9 /* DetailsView.swift */; };
 		CCAD899F27510C6200CA9E3C /* DikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD899E27510C6200CA9E3C /* DikeApp.swift */; };
-		CCAD89A127510C6200CA9E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89A027510C6200CA9E3C /* ContentView.swift */; };
+		CCAD89A127510C6200CA9E3C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89A027510C6200CA9E3C /* MainView.swift */; };
 		CCAD89A327510C6400CA9E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD89A227510C6400CA9E3C /* Assets.xcassets */; };
 		CCAD89A627510C6400CA9E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD89A527510C6400CA9E3C /* Preview Assets.xcassets */; };
 		CCAD89B027510C6400CA9E3C /* DikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD89AF27510C6400CA9E3C /* DikeTests.swift */; };
@@ -49,9 +50,10 @@
 		8AB61E3A3CDF243F945E7CF9 /* Pods_Dike_DikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dike_DikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9401FC039CB2C0268F7169 /* Pods-DikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DikeTests.debug.xcconfig"; path = "Target Support Files/Pods-DikeTests/Pods-DikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C947C6DACFC12BB4D66DD64C /* Pods-Dike-DikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dike-DikeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dike-DikeUITests/Pods-Dike-DikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC947C0D2758F7570082A9D9 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		CCAD899B27510C6200CA9E3C /* Dike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD899E27510C6200CA9E3C /* DikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DikeApp.swift; sourceTree = "<group>"; };
-		CCAD89A027510C6200CA9E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCAD89A027510C6200CA9E3C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CCAD89A227510C6400CA9E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCAD89A527510C6400CA9E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCAD89AB27510C6400CA9E3C /* DikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,42 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CC947C0F2758FF9C0082A9D9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD89A027510C6200CA9E3C /* MainView.swift */,
+				CC947C0D2758F7570082A9D9 /* DetailsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CC947C102758FFA90082A9D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD89C82751102C00CA9E3C /* ConstitutionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC947C112758FFBD0082A9D9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD89CE27511D0300CA9E3C /* ConstitutionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CC947C122758FFE10082A9D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CC947C0F2758FF9C0082A9D9 /* Screens */,
+				CC947C102758FFA90082A9D9 /* Models */,
+				CCAD89D12751314600CA9E3C /* Views */,
+				CC947C112758FFBD0082A9D9 /* Presenter */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		CCAD899227510C6200CA9E3C = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				CCAD899E27510C6200CA9E3C /* DikeApp.swift */,
-				CCAD89A027510C6200CA9E3C /* ContentView.swift */,
+				CC947C122758FFE10082A9D9 /* App */,
 				CCAD89A227510C6400CA9E3C /* Assets.xcassets */,
 				CCAD89A427510C6400CA9E3C /* Preview Content */,
-				CCAD89C82751102C00CA9E3C /* ConstitutionModel.swift */,
-				CCAD89D12751314600CA9E3C /* Views */,
 				CCAD89D0275130EE00CA9E3C /* Resources */,
-				CCAD89CE27511D0300CA9E3C /* ConstitutionPresenter.swift */,
 			);
 			path = Dike;
 			sourceTree = "<group>";
@@ -434,11 +469,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAD89A127510C6200CA9E3C /* ContentView.swift in Sources */,
+				CCAD89A127510C6200CA9E3C /* MainView.swift in Sources */,
 				CCAD89CF27511D0300CA9E3C /* ConstitutionPresenter.swift in Sources */,
 				CCAD89C92751102C00CA9E3C /* ConstitutionModel.swift in Sources */,
 				CCAD899F27510C6200CA9E3C /* DikeApp.swift in Sources */,
 				CCAD89D32751316200CA9E3C /* TitleView.swift in Sources */,
+				CC947C0E2758F7570082A9D9 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

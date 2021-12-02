@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var presenter = ConstitutionPresenter()
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
     var body: some View {
-            NavigationView {
+        NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach(presenter.getTitle(), id: \.name) { title in
+                    ForEach(presenter.getTitles(), id: \.name) { title in
                         TitleView(title: title)
                     }
                 }
@@ -26,8 +26,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }

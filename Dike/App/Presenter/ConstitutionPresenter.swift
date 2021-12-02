@@ -24,7 +24,7 @@ struct ConstitutionPresenter {
     }
     
     
-    func getTitle() -> [Title] {
+    func getTitles() -> [Title] {
         return self.titles;
     }
 }
