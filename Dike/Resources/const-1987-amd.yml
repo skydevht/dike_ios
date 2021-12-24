@@ -1,7 +1,8 @@
 - name: Titre I
-  text: DE LA RÉPUBLIQUE D’HAÏTI
+  text: "DE LA RÉPUBLIQUE D'HAÏTI"
   chapters:
-    - name: null
+    - name: Chapitre I
+      text: "DE LA RÉPUBLIQUE D'HAÏTI"
       sections:
         - name: null
           articles:
@@ -13,6 +14,7 @@
   text: DE LA NATIONALITÉ HAÏTIENNE
   chapters:
     - name: null
+      text: null
       sections:
         - name: null
           articles:

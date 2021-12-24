@@ -27,4 +27,8 @@ struct ConstitutionPresenter {
     func getTitles() -> [Title] {
         return self.titles;
     }
+    
+    func getTitle(name: String) -> Title? {
+        return self.titles.first(where: {title in title.name == name})
+    }
 }

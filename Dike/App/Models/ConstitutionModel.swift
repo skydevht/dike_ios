@@ -15,10 +15,10 @@ struct Title: Codable {
 
 struct Chapter: Codable {
     var name: String?
-    var sections: Array<Section>
+    var sections: Array<TitleSection>
 }
 
-struct Section: Codable {
+struct TitleSection: Codable {
     var name: String?
     var articles: Array<Article>
 }
