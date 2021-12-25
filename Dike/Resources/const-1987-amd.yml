@@ -10,6 +10,25 @@
               text: >-
                     Haïti est une République, indivisible, souveraine, indépendante,
                     libre, démocratique et solidaire
+            - name: Article 2
+              text: >-
+                    Les couleurs nationales sont: le bleu et le rouge.
+            - name: Article 3
+              text: >-
+                    L'emblème de la Nation Haïtienne est le Drapeau qui répond à la description suivante:
+                    a) Deux (2) bandes d'étoffe d'égales dimensions: l'une bleue en haut, l'autre rouge en bas, placées horizontalement;
+                    b) Au centre, sur un carré d'étoffe blanche, sont disposées les Armes de la République;
+                    c) Les Armes de la République sont : Le Palmiste surmonté du Bonnet de la Liberté et, ombrageant des ses Palmes, un Trophée d'Armes avec la Légende: L'Union fait la Force.
+            - name: Article 4
+              text: >-
+                    La devise nationale est: Liberté - Égalité - Fraternité.
+            - name: Article 4.1
+              text: >-
+                    L'Hymne National est: La Dessalinienne.
+            - name: Article 5
+              text: >-
+                   Tous les Haïtiens sont unis par une Langue commune : le Créole.
+                   - Le Créole et le Français sont les langues officielles de la République.
 - name: Titre II
   text: DE LA NATIONALITÉ HAÏTIENNE
   chapters:
